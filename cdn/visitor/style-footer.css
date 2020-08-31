@@ -1,0 +1,64 @@
+
+#footer{
+	background:#274F75 url(../images/bg-footer.gif) repeat-x;
+	min-height:113px;
+	width:100%;
+}
+#footer div{
+	font-size:12px;
+	margin:0 auto;
+	padding-top:37px;
+	position:relative;
+	width:960px;
+}
+#footer div div#connect{
+	float:left;
+	padding:0;
+	width:250px;
+}
+#footer div div#connect a{
+	display:inline-block;
+	padding-right:10px;
+}
+#footer div div.section{
+	float:right;
+	padding:0;
+	width:700px;
+}
+#footer div div.section ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:absolute;
+	right:0;
+	top:0;
+}
+#footer div div.section ul li{
+	border-left:1px solid #6886a0;
+	float:left;
+	padding:0 5px;
+}
+#footer div div.section ul li.last{
+	border-right:0;
+}
+#footer div div.section ul li:first-child{
+	border:none;
+}
+#footer a{
+	color:#6886A0;
+	text-decoration:none;
+}
+#footer div div.section ul li a{
+	display:block;
+	height:12px;
+	line-height:10px;
+}
+#footer a:hover{
+	color:#fff;
+}
+#footer div div.section p{
+	color:#6886A0;
+	margin:0;
+	padding:20px 3px 0;
+	text-align:right;
+}
